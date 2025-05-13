@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save The Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Save The Video</h1>
+    </header>
+    <div class="banner-ad">[Your Banner Ad Here]</div>
+    <main>
+        <p class="description">Download videos or audio from any site — Full HD, MP3, adult sites supported.</p>
+        <form method="POST" action="/download">
+            <input type="url" name="url" placeholder="Paste video URL here" required>
+            <select name="format">
+                <option value="mp4">Full HD Video (MP4)</option>
+                <option value="mp3">Audio Only (MP3)</option>
+            </select>
+            <button type="submit">Download</button>
+        </form>
+        <div class="popup-ad">[Popup/Interstitial Ad Placeholder]</div>
+    </main>
+</body>
+</html>
